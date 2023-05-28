@@ -18,3 +18,4 @@ for i in range(s):
     
 for i in answer:
     print(i)
+# int(리스트[0])이면 오류가 나서 변수에 넣었다
