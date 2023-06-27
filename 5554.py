@@ -1,0 +1,9 @@
+home_school=int(input())
+school_PC=int(input())
+PC_academy=int(input())
+academy_home=int(input())
+walk=home_school+school_PC+PC_academy+academy_home
+y=walk%60
+x=walk//60
+print(x)
+print(y)
