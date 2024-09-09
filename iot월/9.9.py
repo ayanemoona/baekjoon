@@ -202,3 +202,49 @@
 #     b, c = map(int,input().split())
 #     sum+=c%b
 # print(sum)
+
+#4012
+# #rank 알고리즘
+# a=int(input())
+# b=list(map(int, input().split()))
+# rank = [1]*a
+# for i in range(a):
+#     for j in range(a):
+#         if i==j:
+#             continue
+#         if b[i]<b[j]:
+#             rank[i]+=1
+
+# for i in range(a):
+#     print(b[i],rank[i])
+
+#1676
+# a=int(input())
+# lst=[]
+# rank=[1]*a
+
+# for i in range(a):
+#     b=int(input())
+#     lst.append(b)
+
+# for i in range(a):
+#     for j in range(a):
+#         if i==j:
+#             continue
+#         if lst[i]<lst[j]:
+#             rank[i]+=1
+# for i in rank:
+#     print(i)
+
+#4041
+# #문자로 받기
+# a=input()
+# print(int(a[::-1]))
+# sum=0
+# for i in a:
+#     sum=sum+int(i)
+# print(sum)
+
+
+
+
