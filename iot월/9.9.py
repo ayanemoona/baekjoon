@@ -399,3 +399,52 @@
 # lst = [a+b, a-b, a*b]
 # lst.sort()
 # print(lst[1])
+
+#3019
+# lst = []
+# a = int(input())
+# for i in range(a):
+#     b, c, d, e = input().split()
+#     tmp = [int(c), int(d), int(e), b]
+#     lst.append(tmp)
+# lst.sort()
+# for i in lst:
+#     print(i[3])
+
+#4031
+# a = list(map(int,input().split()))
+# even = []
+# odd = []
+# for i in a:
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# if even==[]:
+#     print(max(odd))
+# elif odd==[]:
+#     print(max(even))
+# else:
+#     print(max(odd)+ max(even))
+
+# #4562
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = str(a*b*c)
+# lst = [0]*10
+
+# for i in d:
+#     lst[int(i)] +=1
+# for i in lst:
+#     print(i)
+
+# #4831
+# a = int(input())
+# b = list(map(int,input().split()))
+# sum = 0
+
+# for i in b:
+#     if a==i:
+#         sum+=1
+# print(sum)
