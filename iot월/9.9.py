@@ -312,3 +312,42 @@
 # lst.sort()
 # for i in lst:
 #     print(*i)
+
+#1207
+# y={1:"도",2:"개",3:"걸",4:"윷",0:"모"}
+# a = list(map(int,input().split()))
+# print(y[sum(a)])
+
+#1720
+# a=int(input())
+# for i in range(a):
+#     b,c,d,e = map(int,input().split())
+#     tmp =[b,c,d]
+#     if min(tmp) == e:
+#         continue
+#     else:
+#         print(i+1, min(tmp))
+#         exit(1)#완전히 종료
+# print(-1)
+
+# #2009
+# a,b = map(int,input().split())
+# coffee =0
+
+# while True:
+#     if a<b:
+#         break
+#     a = a - b
+#     coffee += 1
+#     a = a + 1
+# print(coffee)
+
+#2037
+# a=int(input())
+# lst=[]
+# for i in range(a,1000):
+#     if i//a ==1:
+#         lst.append(i)
+# print({*lst})
+
+#2333
