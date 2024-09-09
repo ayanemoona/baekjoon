@@ -448,3 +448,19 @@
 #     if a==i:
 #         sum+=1
 # print(sum)
+
+#2044
+# lst = []
+# a = input()
+# for i in a:
+#     if i =='A':
+#         del lst[-1]
+#     elif i=='B':
+#         del lst[-2]
+#         del lst[-1]
+#     elif i=="C":
+#         del lst[:]
+#     else:
+#         lst.append(i)
+# for i in lst:
+#     print(i, end='')
