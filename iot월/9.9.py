@@ -245,6 +245,70 @@
 #     sum=sum+int(i)
 # print(sum)
 
+# #6095
+# a=[[0] *19 for _ in range(19)] #2차원 0으로 구성
+# b=int(input())
+# for i in range(b):
+#     x,y=map(int,input().split())
+#     a[x-1][y-1]=1
 
+# for i in range(19):
+#     for j in range(19):
+#         print(a[i][j],end=' ')
+#     print()
 
+#1500
+# a,b=map(int,input().split())
+# lst=[]
+# for i in range(a):
+#     c=list(map(int,input().split()))
+#     lst.append(c)
 
+# for i in range(a):
+#     for j in range(b):
+#         print(lst[i][j],end=' ')
+#     print()
+
+#1521
+# sum=0
+# a,b=map(int,input().split())
+# lst=[]
+# for i in range(a):
+#     c=list(map(int,input().split()))
+#     lst.append(c)
+
+# for i in range(a):
+#     for j in range(a):
+#         if lst[i][j] == -1:
+#             continue
+#         if lst[i][j]+b>=0 and lst[i][j]+b<=5:
+#             sum+=1
+# print(sum)
+
+#1508
+# a=int(input())
+# lst=[[0]*a for i in range(a)]
+
+# for i in range(a):
+#     b=int(input())
+#     lst[i][0] =b
+
+# for i in range(a):
+#     for j in range(i+1):
+#         if lst[i][j] == 0:
+#             lst[i][j] =lst[i][j-1] - lst[i-1][j-1]
+
+# for i in range(a):
+#     for j in range(i+1):
+#         print(lst[i][j], end=' ' )
+#     print()
+
+#1805
+# lst = []
+# a = int(input())
+# for i in range(a):
+#     b, c = map(int,input().split())
+#     lst.append([b,c])
+# lst.sort()
+# for i in lst:
+#     print(*i)
