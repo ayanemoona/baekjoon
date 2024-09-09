@@ -351,3 +351,51 @@
 # print({*lst})
 
 #2333
+# a=input()
+# b=input()
+# if b in a:
+#     print('O')
+# else:
+#     print('X')
+
+#2411
+# male=0
+# female = 0
+# a=int(input())
+# for i in range(a):
+#     b=input().split(',')
+#     if b[1] == 'F':
+#         female+=1
+#     else:
+#         male+=1
+# print(male)
+# print(female)
+
+#2412
+# sum = 0
+# a = int(input())
+# for i in range(a):
+#     b=input().split(',')
+#     sum+=int(b[2])
+# print("%.2f"%(sum/a)) 
+
+# #2413
+# sum = 0
+# a = int(input())
+# for i in range(a):
+#     b=input().split(',')
+#     sum+=int(len(b[3:]))
+# print("%.2f"%(sum/a)) 
+
+# a = int(input())
+# sum = 0
+# for i in range(a):
+#     b=input()
+#     sum=sum + b.count(',') - 2
+# print("%.2f"%(sum/a))
+
+#2761
+# a, b=map(int, input().split(' '))
+# lst = [a+b, a-b, a*b]
+# lst.sort()
+# print(lst[1])
